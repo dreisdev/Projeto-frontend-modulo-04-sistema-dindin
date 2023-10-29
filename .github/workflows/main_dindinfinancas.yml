@@ -53,4 +53,4 @@ jobs:
           app-name: 'dindinfinancas'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C77309ED628F4006AB45AD68673EFB2A }}
-          package: .
+          package: ./build
