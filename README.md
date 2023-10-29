@@ -19,9 +19,12 @@ O sistema trata-se de uma aplicação para controle de finanças pessoais. As fu
 - Permitir o usuário filtrar a tabela por categoria (``Extra``)
 - Editar perfil de usuário (``Extra``)
 
-> **Note** 
-> - As funcionalidades que estão `*` são obrigatórias
-> - As funcionalidades que estão marcadas com `Extra`, não são obrigatórias, mas valem pontos para aumentar seu desempenho na avaliação final
+> **Tecnologias Utilizadas** 
+> - Javascript
+> - React
+> - HTML
+> - CSS
+
 
 ## Detalhamento de Requisitos:
 
