@@ -1,0 +1,131 @@
+.boxSignIn {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 1024px;
+    background-image: url(../../assets/background.png);
+}
+
+.logoSignIn {
+    display: flex;
+    flex-direction: column;
+
+    width: 161px;
+    height: 45px;
+    margin-top: 41px;
+    margin-left: 100px;
+
+}
+
+.Login-box {
+    position: absolute;
+    width: 513px;
+    height: 535px;
+
+    left: 805px;
+    top: 194px;
+
+    background-color: #FFF;
+}
+
+.login-h1 {
+
+    color: #7978D9;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin-top: 61px;
+    margin-left: 171px;
+}
+
+.title-h1 {
+    position: absolute;
+
+    width: 614px;
+    height: 124px;
+
+    top: 327px;
+    left: 100px;
+    margin: 20px;
+
+    color: #FFF;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.finances {
+    color: #7978D9;
+}
+
+.text-h1 {
+
+    position: absolute;
+
+    width: 600px;
+    top: 484px;
+    left: 105px;
+    margin: 20px;
+
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.signupButton-SignIn {
+
+    position: absolute;
+
+    width: 284px;
+    height: 52px;
+
+    border-radius: 5px;
+    border: none;
+    top: 626px;
+    left: 105px;
+    margin: 20px;
+
+    background-color: #7978D9;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.signin-label {
+    margin-left: 32px;
+}
+
+.signin-input {
+    display: flex;
+    width: 449px;
+    height: 63px;
+
+    margin: 10px;
+    margin-left: 32px;
+
+    border-radius: 5px;
+    border: 1px solid #555;
+
+}
+
+.signin-button {
+    width: 449px;
+    height: 53px;
+
+    margin-left: 32px;
+    margin-top: 38px;
+
+    background-color: #7978D9;
+    color: #FFF;
+    border-radius: 5px;
+    border: 1px solid #555;
+    border: none;
+}

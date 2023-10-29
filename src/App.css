@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.font-face {
+    font-family: 'Rubik';
+}

@@ -1,0 +1,131 @@
+.container-record {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.filter-button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    margin: 63px 0px 25px 0px;
+    border-radius: 10px;
+    border: none;
+    background: #FAFAFA;
+    font-weight: 700;
+    font-style: normal;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.10);
+}
+
+.table-resume {
+    display: flex;
+}
+
+.full-table {
+    width: 964px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table-head {
+    border-radius: 10px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.10);
+    height: 58px;
+    align-items: center;
+    border-spacing: none
+}
+
+.data {
+    font-weight: 700;
+}
+
+.table-d {
+    height: 60px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.purple {
+    color: #645FFB;
+    font-weight: 700;
+}
+
+.yellow {
+    color: #FA8C10;
+    font-weight: 700;
+}
+
+.cyan {
+    color: #3A9FF1;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.full-resume {
+    margin-top: 118px;
+}
+
+.section-resume {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 236px;
+    height: 196px;
+    margin: 0px 0px 16px 0px;
+    padding: 10px 33px 10px 33px;
+    border-radius: 10px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.10);
+    color: #2F2F2F;
+}
+
+.money-resume {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.money-in,
+.money-out {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.money-out {
+    padding-bottom: 19px;
+}
+
+.money-total {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.money {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.money-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.out {
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.record-button {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    width: 236px;
+    height: 46px;
+    border-radius: 5px;
+    border: none;
+    background: #7978D9;
+    cursor: pointer;
+}

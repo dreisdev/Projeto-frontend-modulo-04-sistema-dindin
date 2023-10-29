@@ -1,0 +1,103 @@
+.background-style {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(61, 61, 61, 0.48);
+    z-index: 1000;
+}
+
+.close-modal {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.modal-style {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 458.25px;
+    height: 659.25px;
+    padding: 45.75px 46.5px 39px 46.5px;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background: #FFF;
+}
+
+.modal-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 39px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 31.5px;
+}
+
+.record-h1 {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.record-input,
+.record-select {
+    width: 363.75px;
+    height: 48px;
+    border-radius: 3.5px;
+    border: 1px solid #555;
+    background: #FFF;
+    margin-bottom: 19.5px;
+    margin-top: 6.3px;
+}
+
+.modal-button {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 10.5px;
+    width: 183.75px;
+    height: 45px;
+    border-radius: 3.75px;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-h2 {
+    color: #484848;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 6.3px;
+}
+
+.modal-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.record-select {
+    color: #484848;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.submit-button {
+    width: 177px;
+    height: 34px;
+    background: #7978D9;
+    color: white;
+    border: none;
+    border-radius: 3.5px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: #FF576B;
+    margin-bottom: 19.5px;
+}
