@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c6a82c46.css",
+    "main.js": "/static/js/main.1472642a.js",
+    "static/media/background.png": "/static/media/background.68c5d30d228b391d8e34.png",
+    "static/media/Rubik-Regular.ttf": "/static/media/Rubik-Regular.42535d1e2d489e27b525.ttf",
+    "static/media/logo.svg": "/static/media/logo.625e36c6cd2bccdc9ec8e48d7af49d4f.svg",
+    "static/media/logoutbutton.svg": "/static/media/logoutbutton.0f0ab5104b5776b7ce0e13cfd2765b10.svg",
+    "static/media/profilebutton.svg": "/static/media/profilebutton.a152f899474f42b4962254faa6feb28f.svg",
+    "static/media/filter.svg": "/static/media/filter.a7133bf881829875b44576e20f6da84f.svg",
+    "static/media/closemodal.svg": "/static/media/closemodal.5850d5ef6dfd2135abf1aaf0d9c1c73c.svg",
+    "static/media/deleteregisterbutton.svg": "/static/media/deleteregisterbutton.4b2f7c26a764d0257d4aa2b8783166c8.svg",
+    "static/media/editregisterbutton.svg": "/static/media/editregisterbutton.1f51d2ca46d6e676585cf6e4af204b76.svg",
+    "index.html": "/index.html",
+    "main.c6a82c46.css.map": "/static/css/main.c6a82c46.css.map",
+    "main.1472642a.js.map": "/static/js/main.1472642a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6a82c46.css",
+    "static/js/main.1472642a.js"
+  ]
+}
