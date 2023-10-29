@@ -5,14 +5,6 @@ Projeto do Módulo 4 - Feito em dupla com @dreisdev e @thisisnelsu
 
 # Desafio | Front-end - Módulo 4
 
-Após alguns meses trabalhando em projetos mais simples, você foi designado pelo seu Tech Lead para desenvolver uma aplicação que será apresentada a um cliente muito importante.
-
-Para o seu desenvolvimento foi liberado o layout que você pode encontrar no seguinte [link](https://www.figma.com/file/BwOAJkF8OeMON36TyFdhkj/DinDin-2.0?node-id=0%3A1).
-
-Além disso, você pode acessar o mapa mental com o mapeamento das funcionalidades clicando no seguinte [link](https://miro.com/app/board/uXjVPZkmV7c=/?share_link_id=902157252329).
-
-Aqui está a documentação da API que será usada no desenvolvimento do desafio [link](https://github.com/cubos-academy/desafio-frontend-modulo-04-sistema-dindin-ddst11/wiki)
-
 O sistema trata-se de uma aplicação para controle de finanças pessoais. As funcionalidades são:
 
 - Cadastro do usuário ``*``
@@ -27,9 +19,12 @@ O sistema trata-se de uma aplicação para controle de finanças pessoais. As fu
 - Permitir o usuário filtrar a tabela por categoria (``Extra``)
 - Editar perfil de usuário (``Extra``)
 
-> **Note** 
-> - As funcionalidades que estão `*` são obrigatórias
-> - As funcionalidades que estão marcadas com `Extra`, não são obrigatórias, mas valem pontos para aumentar seu desempenho na avaliação final
+> **Tecnologias Utilizadas** 
+> - Javascript
+> - React
+> - HTML
+> - CSS
+
 
 ## Detalhamento de Requisitos:
 
@@ -47,8 +42,6 @@ Ao clicar no botão **Cadastrar** você deverá enviar os dados do formulário p
 
 ---
 
-# Pessoa A
-
 ### Login de usuário:
 
 1. Na página de login de usuário, temos um botão chamado **Cadastre-se**, esse botão deve levar o usuário para a tela de cadastrar um novo usuário **(sign-up)**:
@@ -59,8 +52,6 @@ Ao clicar no botão **Cadastrar** você deverá enviar os dados do formulário p
 ![](https://i.imgur.com/vvnluj6.png)
 
 ---
-
-# Pessoa B
 
 ### Página principal (main):
 
@@ -79,9 +70,6 @@ Veja na imagem abaixo:
 ![](https://i.imgur.com/SYm8uuY.png)
 
 ---
-
-# Pessoa B
-
 ### Cadastro de uma nova transação:
 
 Para cadastrar uma nova transação o usuário deverá clicar no botão `Adicionar Registro`, que ficará logo abaixo da área de `resumo`.
@@ -103,8 +91,6 @@ Após o usuário clicar no botão **confirmar**, uma nova transação deve ser i
 
 ---
 
-# Pessoa B
-
 ### Editar uma transação:
 
 Para editar uma transação o usuário deverá clicar no ícone do lápis, que se encontrará na tabela de listagem de transações:
@@ -123,8 +109,6 @@ Após validar os campos e o usuário clicar em confirmar, a transação deverá 
 
 ---
 
-# Pessoa B
-
 ### Excluir uma transação:
 
 Para excluir uma transação o usuário deverá clicar no ícone da lixeira, que se encontrará na tabela de listagem de transações:
@@ -134,17 +118,6 @@ Para excluir uma transação o usuário deverá clicar no ícone da lixeira, que
 Esse ícone => ![](https://i.imgur.com/X6GB3kh.png)
 
 
-> **Warning**: A exibição do ``popup``, é uma funcionalidade extra, não é obrigatório implementar. 
-
-> **Note**: Você pode excluir uma tranasação, clicando somente no ícone, sem precisar abrir o ``popup`` para confirmar, deletando direto.
-
-Ao clicar nesse ícone, um "popup" irá aparecer para que o usuário confirme ou não a exclusão, fazendo com que não hajam exclusões por engano, veja abaixo como aparece o "popup":
-
-  ![](https://i.imgur.com/Ohhk1lhm.png)
-
----
-
-# Pessoa B
 
 ### Listagem de transações:
 
@@ -163,22 +136,8 @@ Cada linha da tabela representa uma transação. Portanto cada botão representa
 
 ---
 
-# Pessoa A
 
 #### Cabeçalho da tabela: 
-> **Warning**: A ordenação no cabeçalho da tabela, é uma funcionalidade extra, não é obrigatório implementar.
-
-No cabeçalho da tabela deverá haver a opção de clicar e ordenar de forma **crescente** e **decrescente**, para isso basta o usuário clicar no nome da coluna, a cada clique a ordenação deve ser alterada entre **crescente** e **decrescente**.
-
-Somente a coluna **Data** poderá ser ordenada:
-
-Veja abaixo o ícone que representa que a coluna está sendo ordenada:
-
-- Ordenando a coluna data de forma crescente (do menor para o maior)
-  - ![](https://i.imgur.com/E0cR53u.png)
-
-**Importante:** Somente a coluna em ordenação deve conter o ícone.
-
 ---
 
 # Pessoa A
@@ -198,62 +157,6 @@ Veja na imagem abaixo, como deve ser o resumo;
 
 ---
 
-# Pessoa A
-
-### Filtros:
-> **Warning**: Os filtros são funcionalidades extras, não é obrigatório implementar. 
-
-A área de filtros por padrão é oculta, por isso você deve implementar a lógica para que quando o usuário clique no botão **Filtrar** a área de filtro seja exibida e quando clicar novamente seja ocultada, veja abaixo o botão que exibe/oculta a área de filtros:
-
-![](https://i.imgur.com/GCsalqk.png)
-
-Os filtros servem para dar granularidade aos dados, ou seja, para haver a possibilidade de exibir as transações conforme selecionamos requisitos para tal. Por exemplo, se disseremos que deve-se exibir apenas as transações da categoria **Depósito**, devemos listar na tabela somente as transações que pertencem àquela categoria.
-
-![](https://i.imgur.com/YzXbttF.png)
-
-Os filtros são cumulativos, ou seja, você pode filtrar por uma categoria ou por diversas categorias.
-
-O funcionamento dos filtros segue a seguinte ordem:
-
-1. Seleciona-se os filtros de categoria
-2. Após selecionar os filtros desejados, clica-se no botão **aplicar filtros**.
-
-Para limpar os filtros atuais, o usuário deverá clicar no botão **limpar filtros**
-
-**Importante:**
-
-1. Ao clicar em aplicar filtros sem nenhum filtro selecionado, o sistema deve exibir todas as transações disponíveis cadastradas.
-2. Ao clicar em limpar filtros, o sistema deve exibir todas as transações disponíveis cadastradas.
-
-Veja na imagem abaixo os botões:
-![](https://i.imgur.com/X43exDw.png)
-
----
-
-# Pessoa B
-
-### Editar perfil de usuário:
-> **Warning**: A edição do perfil é uma funcionalidade extra, não é obrigatório implementar.
-
-No header da aplicação existe um ícone:
-
-![](https://i.imgur.com/q6MS5wi.png)
-
-Ao clicar nesse ícone, deverá ser exibido um modal para edição do usuário logado.
-
-1. O modal deverá abrir com os dados do usuário já carregados nele (menos senha e confirmação de senha)
-2. Após o usuário preencher os campos ele deverá clicar em **confirmar**, nesse momento você deve validar se os campos estão preenchidos, caso estejam, você deve enviar as informações que a **API** solicita para fazer a atualização do usuário logado.
-3. Após o perfil ter sido atualizado o modal deverá ser fechado.
-4. Ao abrir novamente o modal, os dados do usuário devem estar atualizados.
-
-Veja na imagem o modal já preenchido:
-
-![](https://i.imgur.com/aWx7T9C.png)
-
----
-
-# Pessoa A
-
 ### Logout e nome de usuário
 
 No header da página principal **(main)** você deverá:
@@ -266,7 +169,5 @@ Veja na imagem abaixo os ícones:
 
 ---
 
-**LEMBRE-SE**: é melhor feito do que perfeito, mas não faça mal feito!!!
-
-###### tags: `front-end` `módulo 3` `React` `CSS` `desafio`
+###### tags: `front-end` `módulo 4` `React` `CSS` `desafio`
 
